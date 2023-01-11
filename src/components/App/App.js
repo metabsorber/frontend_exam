@@ -1,6 +1,7 @@
 
 import './App.css';
 
+import Header from "../Header/Header";
 import Promo from "../Promo/Promo";
 import About from "../About/About";
 import Progress from "../Progress/Progress";
@@ -12,6 +13,7 @@ function App() {
   
   return (
 <div className="App">
+  <Header />
   <Promo />
   <About />
   <Progress />
@@ -23,3 +25,8 @@ function App() {
 }
 
 export default App;
+
+/*
+
+
+*/
